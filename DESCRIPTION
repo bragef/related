@@ -1,0 +1,13 @@
+Package: related
+Type: Package
+Title: related: an R package for analyzing pairwise relatedness data
+        based on codominant molecular markers
+Version: 1.0
+Date: 2015-03-20
+Author: Jack Pew, Jinliang Wang, Paul Muir, and Tim Frasier
+Maintainer: Tim Frasier <timothy.frasier@smu.ca>
+Description: Provides functions for calculating relatedness from codominant genetic data using any or all of seven estimators, and includes options for considering inbreeding and genotyping errors, and can estimate 95% confidence intervals.  Also includes simulation options for comparing the performance of different estimators on a given data set and estimating the expected resolution given a particular data set. Can also test hypotheses regarding relatedness patterns within pre-defined groups.
+License: GPL (>= 2)
+Depends: R (>= 2.15.0), tools, ggplot2
+Packaged: 2018-06-14 16:13:05 UTC; timfrasier
+NeedsCompilation: yes
